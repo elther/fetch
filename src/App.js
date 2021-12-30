@@ -1,10 +1,11 @@
 import { RecoilRoot } from 'recoil';
-import Counter2 from './components/Counter2';
-import CharacterCounter from './components/recoilExample/CharacterCounter';
-import FontButton from './components/recoilExample/FontButton';
-import Text from './components/recoilExample/Text';
-import TestMocking from './components/TestMocking';
-import Counter from './features/counter/Counter';
+// import Counter2 from './components/Counter2';
+// import CharacterCounter from './components/recoilExample/CharacterCounter';
+// import FontButton from './components/recoilExample/FontButton';
+// import Text from './components/recoilExample/Text';
+import TodoList from './components/recoilExample/Todo/TodoList';
+// import TestMocking from './components/TestMocking';
+// import Counter from './features/counter/Counter';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       {/* <TestMocking />
       <Counter /> */}
       <RecoilRoot>
-        <FontButton />
+        {/* <FontButton />
         <Text />
-        <CharacterCounter />
+        <CharacterCounter /> */}
+        <TodoList />
       </RecoilRoot>
     </div>
   );
