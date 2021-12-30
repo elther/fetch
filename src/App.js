@@ -1,4 +1,5 @@
 import { RecoilRoot } from 'recoil';
+import CurrentUserInfo from './components/recoilExample/CurrentUserInfo';
 // import Counter2 from './components/Counter2';
 // import CharacterCounter from './components/recoilExample/CharacterCounter';
 // import FontButton from './components/recoilExample/FontButton';
@@ -17,6 +18,7 @@ function App() {
         <Text />
         <CharacterCounter /> */}
         <TodoList />
+        <CurrentUserInfo />
       </RecoilRoot>
     </div>
   );
