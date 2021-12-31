@@ -31,6 +31,7 @@ const currentUserNameQuery = selectorFamily({
         const response = await axios.get(`/api/user-name?id=${id}`);
         return response.data.name;
     },
+    cachePolicy_UNSTABLE: { eviction: "most-recent" },
 });
   
   
